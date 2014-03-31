@@ -1,0 +1,22 @@
+ios-kexec-utils
+===============
+
+A miscellany of utilities designed to help you bootstrap
+another operating system on an iOS device. They're probably crap.
+
+You deal with them. No support/warranty implied/given. 
+
+Warning: there are severe caveats with this method.
+
+Utilities included (and duplicated from opensn0w-X):
+
+	* img3maker - Image3 file maker, needed for the decrypted boot chain.
+	* ibsspatch - iBSS patcher for iOS 7, creates a generic patched iBSS for boot.
+	* kloader - Image loader for the kernel, bootstraps custom image in RAM.
+	* multi_kloader - Image loader for two images in memory. See source for boot
+	                  protocol convention.
+
+Using these utilities in unison will let you do awesome things.
+
+(This is one of the last public projects I will push for now.
+ Personal reasons, mainly stress related.)
